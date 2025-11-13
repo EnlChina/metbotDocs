@@ -4,20 +4,14 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   locales: [
     {
-      lang: 'en',
-      label: 'English',
-      title: 'Rspress',
-      description: 'Static Site Generator',
-    },
-    {
       lang: 'zh',
       label: '简体中文',
-      title: 'Rspress',
-      description: '静态网站生成器',
+      title: 'AgentMetBot',
+      description: 'AgentMetBot使用文档',
     },
   ],
   root: path.join(__dirname, 'docs'),
-  title: 'My Demo Site',
+  title: 'AgentMetBot使用文档',
   icon: '/metbotlogo.png',
   lang: 'zh',
   logo: {
@@ -25,16 +19,19 @@ export default defineConfig({
     dark: '/metbotlogo.png',
   },
   themeConfig: {
+    footer: {
+      message: "2025 © EnlChina. All Rights Reserved.",
+    },
     socialLinks: [
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/EnlChina',
       },
     ],
     editLink: {
       docRepoBaseUrl:
-        'https://github.com/PBnicad/rspress-template/tree/main/docs',
+        'https://github.com/EnlChina/metbotDocs/tree/main/docs',
       text: 'Edit this page on GitHub',
     },
   },

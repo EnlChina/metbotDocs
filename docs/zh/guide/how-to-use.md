@@ -1,28 +1,115 @@
-# 🧪 使用方法
+# Met Bot 快速入门！
+
+## 第一步：找到并启动机器人
+
+在 Telegram 的搜索栏中搜索 [AgentMetBot](https://t.me/AgentMetBot)，并点击第一个选项。
+
+![搜索并点击 AgentMetBot](../../public/metbot.png)
+
+启动机器人后，点击 `/help` 查看帮助。
+
+> 💡 有很多可用的命令，但让我们先绑定我们的游戏 ID 吧！
 
 ---
 
-# 🚀 一键部署到 Cloudflare Pages
+## 第二步：设置 Telegram Username（推荐）
 
-你可以轻松将此项目部署到 [Cloudflare Pages](https://pages.cloudflare.com/)，免费获得全球 CDN 加速！
+请先确认自己是否设置了 **Telegram Username**。  
+这对其他人提交和你的 `met` 非常有帮助！
 
-点击下方链接，GitHub 会自动为你创建一个基于本项目的仓库：
+> 📌 注意：不设置也能面基，但需要别人手动输入你的完整游戏 ID，比较麻烦。
 
-[![Use this template](https://img.shields.io/badge/Create_from_Template-3b5998?style=for-the-badge&logo=github)](https://github.com/new?template_name=rspress-template&template_owner=PBnicad)
+---
 
-然后按下面步骤部署。
+## 第三步：绑定游戏 ID（AgentName）
 
-1. 进入 [Cloudflare Pages 控制台](https://dash.cloudflare.com/?to=/:account/pages)
-2. 点击 **“Create a project”** → **“Connect to Git”**
-3. 选择你的刚刚fork的仓库
-4. 在构建设置中填写：
+长按 Bot 帮助消息中的命令 `/set_agentname`，它会自动复制到你的输入框中。
 
-> 💡 **部署时请设置：**
->
-> - **Build command**: `pnpm install && pnpm run build`  
-> - **Build output directory**: `/doc_build`  
+```
+/set_agentname
+```
 
-5. 点击 **Save and Deploy**
+然后在输入框中直接输入你的游戏 ID（AgentName），例如：
 
-几分钟后，你将获得一个类似 `https://your-project.pages.dev` 的在线站点！
+```
+/set_agentname YourAgentName
+```
 
+发送即可完成绑定。
+
+![输入游戏 ID 并发送](../../public/metbot.png)
+
+---
+
+## 第四步：申请认证（/bind）
+
+输入命令：
+
+```
+/bind
+```
+
+Bot 会列出当前可用的**面基机器人管理员**，你可以选择你熟悉的管理员进行认证。
+
+> ✅ 请确保该管理员认识你！
+
+### 管理员按地区划分（参考）：
+
+- **东北地区**：FushimiHikoniwa（摸妹）  
+- **北京**：xana233（插哪）  
+- **大湾区**：Davida（散打） / YogaLee17（油咖喱）  
+- **湖北/湖南**：eastx（东东） / LY128（老姨）  
+- **上海**：ODBLK（老黑） / CA49LACHS（小卡尔）  
+- **西南**：NotRealNicad（迷你卡） / TaoChingChung（大套） / icecrEEEEam（五套）  
+- **中部/西北**：prpr9（一桶）
+
+点击对应的管理员后，请在**线下或其他群组中催促他们通过审核**。  
+虽然 Bot 会推送审核消息，但管理员不一定及时查看。
+
+---
+
+## 第五步：发起 Met！
+
+有两种方式发起 `met`：
+
+1. **使用对方的 Telegram Username**（推荐）  
+   在群组中输入：
+   ```
+   /met @对方的Username
+   ```
+   > 如果你们在同一个群，可自动补全，非常方便！
+
+2. **使用对方的游戏 Agent Name**  
+   需完整输入对方的游戏 ID：
+   ```
+   /met 对方的游戏ID
+   ```
+
+> ⚠️ `Met` 行为**必须在群组内发生**，但支持跨群组 `met`。
+
+![发起 met 的示例](../../public/metbot.png)
+
+---
+
+## 第六步：回复别人的 Met 请求
+
+当别人 `met` 你时，Bot 会给你发送一条通知，如下图：
+
+![收到 met 通知](../../public/metbot.png)
+
+**操作步骤**：
+
+1. **点击通知消息中的 `/met xxxxx` 文本部分**（不要手动选中复制！）  
+   → 这会自动将命令复制到剪贴板。
+2. 前往一个**有 Bot 的群组**，粘贴并发送该命令。
+
+✅ 恭喜！你已完成一次激情面基！+10 分！
+
+---
+
+## 温馨提示
+
+- 记录下你和他人的面基瞬间吧！约饭愉快～  
+- **不要隔空面基**（即未实际见面就提交 met）！
+
+---

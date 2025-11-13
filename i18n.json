@@ -10,5 +10,9 @@
   "guide": {
     "en": "Guide",
     "zh": "指南"
+  },
+  "about": {
+    "en": "About",
+    "zh": "关于"
   }
 }

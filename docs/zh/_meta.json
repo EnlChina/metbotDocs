@@ -1,16 +1,16 @@
 [
   {
     "text": "guide",
-    "link": "/guide/",
+    "link": "/guide/how-to-use",
     "activeMatch": "/guide/"
   },
   {
-    "text": "gettingStarted",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "text": "about",
+    "link": "/about/",
+    "activeMatch": "/about/"
   },
   {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
+    "text": "Telegram",
+    "link": "https://t.me/AgentMetBot"
   }
 ]
