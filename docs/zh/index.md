@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/how-to-use/
+      link: /guide/how-to-use
     - theme: alt
       text: GitHub
-      link: https://github.com/web-infra-dev/rspress
+      link: https://github.com/EnlChina
   image:
     src: /metbotlogo.png
     alt: 标志
