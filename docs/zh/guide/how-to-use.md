@@ -63,6 +63,7 @@ Bot 会列出当前可用的**面基机器人管理员**，你可以选择你熟
 - **上海**：ODBLK（老黑） / CA49LACHS（小卡尔）  
 - **西南**：NotRealNicad（迷你卡） / TaoChingChung（大套） / icecrEEEEam（五套）  
 - **中部/西北**：prpr9（一桶）
+- **福建**：W7lww
 
 ![输入游戏 ID 并发送](../../public/4.png)
 ![输入游戏 ID 并发送](../../public/5.png)
