@@ -1,18 +1,22 @@
 {
   "gettingStarted": {
     "en": "Getting Started",
-    "zh": "开始"
+    "zh": "开始",
+    "ja": "はじめに"
   },
   "features": {
     "en": "Features",
-    "zh": "特性"
+    "zh": "特性",
+    "ja": "機能"
   },
   "guide": {
     "en": "Guide",
-    "zh": "指南"
+    "zh": "指南",
+    "ja": "ガイド"
   },
   "about": {
     "en": "About",
-    "zh": "关于"
+    "zh": "关于",
+    "ja": "について"
   }
 }
