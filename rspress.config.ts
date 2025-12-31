@@ -9,6 +9,18 @@ export default defineConfig({
       title: 'AgentMetBot',
       description: 'AgentMetBot使用文档',
     },
+    {
+      lang: 'en',
+      label: 'English',
+      title: 'AgentMetBot',
+      description: 'AgentMetBot Documentation',
+    },
+    {
+      lang: 'ja',
+      label: '日本語',
+      title: 'AgentMetBot',
+      description: 'AgentMetBot ドキュメント',
+    },
   ],
   root: path.join(__dirname, 'docs'),
   title: 'AgentMetBot使用文档',
