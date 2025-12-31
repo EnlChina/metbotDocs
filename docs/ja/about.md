@@ -9,4 +9,3 @@ MetBotはJavaScriptで書かれており、[grammy botフレームワーク](htt
 ボットのソースコードは[GitHub](https://github.com/EnlChina/AgentMetBot)にあります。アクセスするには[EnlChina](https://github.com/EnlChina)組織に参加する必要があります。貢献を歓迎します！
 
 [ボット](https://t.me/AgentMetBot)、ミニアプリ、ボットドキュメントはすべてCloudflareにデプロイされています。Cloudflareに感謝！
-
