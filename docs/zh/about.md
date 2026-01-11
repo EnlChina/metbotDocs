@@ -1,12 +1,38 @@
-# 关于
+# 关于 MetBot
 
-MetBot使用js编写，使用[grammy bot 框架](https://grammy.dev/zh/)
+MetBot 是一个为 Ingress 特工社区设计的 Telegram 机器人，主要用于记录和管理线下面基（meetup）活动。
 
-miniapp使用[vue](https://v3.cn.vuejs.org/)+[daisyui](https://daisyui.com/)
+## 核心功能
 
-本文档使用docs由[rspress](https://rspress.dev/zh/)生成
+### 面基系统
+- **记录面基**: 在群组中使用 `/met` 命令记录与他人的面基
+- **双向确认**: 面基需要双方确认才能完成，确保真实性
+- **积分系统**: 每次成功的面基可获得 10 积分
+- **跨群支持**: 支持在不同群组间发起和确认面基
 
-bot 源代码在 [github](https://github.com/EnlChina/AgentMetBot),需要加入组织[EnlChina](https://github.com/EnlChina)才能访问,欢迎大佬们来重构。
+### 用户管理
+- **AgentName 绑定**: 将游戏 ID 与 Telegram 账号关联
+- **管理员认证**: 通过现有管理员审核激活新用户
+- **多语言支持**: 支持中文、English、日本語
 
-[bot](https://t.me/AgentMetBot),miniapp以及bot文档全部部署在cloudflare,感谢赛博大菩萨！
+### 成就系统
+- **成就解锁**: 通过活动参与、使用兑换码等方式获取成就
+
+### 查询功能
+- **排行榜**: 查看积分排名
+- **面基历史**: 查看个人的面基记录
+- **用户资料**: 查询特工信息
+
+## 链接
+
+- **Bot 链接**: [@AgentMetBot](https://t.me/AgentMetBot)
+- **使用文档**: https://metbotdocs.pages.dev/
+
+## 免责声明
+
+MetBot 仅供 Ingress 社区娱乐使用，与 Niantic 官方无关。请遵守社区规范，不要进行虚假面基。
+
+---
+
+**祝大家面基愉快！🎉**
 
