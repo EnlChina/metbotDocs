@@ -1,5 +1,5 @@
 import * as path from 'node:path';
-import { defineConfig } from 'rspress/config';
+import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   locales: [
@@ -44,7 +44,6 @@ export default defineConfig({
     editLink: {
       docRepoBaseUrl:
         'https://github.com/EnlChina/metbotDocs/tree/main/docs',
-      text: 'Edit this page on GitHub',
     },
   },
 });
